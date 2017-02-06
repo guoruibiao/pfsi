@@ -34,6 +34,8 @@ An easy tool for downloading the common functions during developing by using PHP
 - 3. check it out by comparing with the `dependency.xml` which on the github repository.
 more details, watch [me](https://github.com/guoruibiao/pfsi).
 
+<marquee><a href="http://blog.csdn.net/Marksinoberg/article/details/54893757">详情请点击我</a></marquee>
+
 ## How to contribbute?
 
 While I am very happy to see the code writing by you guys.
