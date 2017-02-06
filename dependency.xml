@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<dependencies>
+    <!--要引入的函数详情-->
+    <dependency>
+        <!--函数名称，应该保证是唯一的-->
+        <name></name>
+        <!--函数集保存在服务器上的位置-->
+        <srcPath></srcPath>
+        <!--函数集将要保存到本地项目中的位置-->
+        <savedPath></savedPath>
+    </dependency>
+
+    <dependency>
+        <name></name>
+        <srcPath></srcPath>
+        <savedPath></savedPath>
+    </dependency>
+</dependencies>
