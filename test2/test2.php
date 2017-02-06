@@ -7,6 +7,6 @@
  * Description:
  */
 
-function time(){
+function showtime(){
     echo date('y-m-d D');
 }
