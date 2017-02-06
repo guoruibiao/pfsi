@@ -3,31 +3,14 @@
     <!--要引入的函数详情-->
     <dependency>
         <!--函数名称，应该保证是唯一的-->
-        <name>test1</name>
+        <name>db</name>
         <!--函数集保存在服务器上的位置-->
-        <srcPath>/test1/test1.php</srcPath>
+        <srcPath>/cloud/db.php</srcPath>
         <!--函数集将要保存到本地项目中的位置-->
-        <savedPath>/commons/test1.php</savedPath>
+        <savedPath>/commons/db.php</savedPath>
     </dependency>
 
-    <dependency>
-        <name>test2</name>
-        <srcPath>/test2/test2.php</srcPath>
-        <savedPath>/commons/test2.php</savedPath>
-    </dependency>
-
-    <dependency>
-        <name>test3</name>
-        <srcPath>/test3/test3.php</srcPath>
-        <savedPath>/commons/test3.php</savedPath>
-    </dependency>
-
-    <!--测试一下服务器上不支持的多种情况-->
-    <dependency>
-        <name>test4</name>
-        <srcPath>/test4/test4.php</srcPath>
-        <savedPath>/commons/test4.php</savedPath>
-    </dependency>
+   <!--可以写多个dependency节点，目前本次只有一个，期待大家的贡献哈-->
 
 
 </dependencies>
