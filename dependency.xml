@@ -15,4 +15,19 @@
         <srcPath>/test2/test2.php</srcPath>
         <savedPath>/commons/test2.php</savedPath>
     </dependency>
+
+    <dependency>
+        <name>test3</name>
+        <srcPath>/test3/test3.php</srcPath>
+        <savedPath>/commons/test3.php</savedPath>
+    </dependency>
+
+    <!--测试一下服务器上不支持的多种情况-->
+    <dependency>
+        <name>test4</name>
+        <srcPath>/test4/test4.php</srcPath>
+        <savedPath>/commons/test4.php</savedPath>
+    </dependency>
+
+
 </dependencies>
