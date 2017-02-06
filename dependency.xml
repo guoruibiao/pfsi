@@ -3,16 +3,16 @@
     <!--要引入的函数详情-->
     <dependency>
         <!--函数名称，应该保证是唯一的-->
-        <name></name>
+        <name>test1</name>
         <!--函数集保存在服务器上的位置-->
-        <srcPath></srcPath>
+        <srcPath>/test1/test1.php</srcPath>
         <!--函数集将要保存到本地项目中的位置-->
-        <savedPath></savedPath>
+        <savedPath>/commons/test1/test1.php</savedPath>
     </dependency>
 
     <dependency>
-        <name></name>
-        <srcPath></srcPath>
-        <savedPath></savedPath>
+        <name>test2</name>
+        <srcPath>/test2/test2.php</srcPath>
+        <savedPath>/commons/test2/test2.php</savedPath>
     </dependency>
 </dependencies>
