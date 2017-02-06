@@ -13,21 +13,23 @@ An easy tool for downloading the common functions during developing by using PHP
  ```
  <?xml version="1.0" encoding="UTF-8" ?>
  <dependencies>
+     <!--比如使用一个关于数据库的轮子-->
+     <dependency>
+         <name>db</name>
+         <srcPath>/cloud/db.php</srcPath>
+         <savedPath>/commons/db.php</savedPath>
+     </dependency>
+ 
      <!--要引入的函数详情-->
      <dependency>
          <!--函数名称，应该保证是唯一的-->
          <name>test1</name>
          <!--函数集保存在服务器上的位置-->
-         <srcPath>/test1/test1.php</srcPath>
+         <srcPath>/cloud/test1.php</srcPath>
          <!--函数集将要保存到本地项目中的位置-->
          <savedPath>/commons/test1.php</savedPath>
      </dependency>
  
-     <dependency>
-         <name>test2</name>
-         <srcPath>/test2/test2.php</srcPath>
-         <savedPath>/commons/test2.php</savedPath>
-     </dependency>
  ```
 - 3. check it out by comparing with the `dependency.xml` which on the github repository.
 more details, watch [me](https://github.com/guoruibiao/pfsi).
