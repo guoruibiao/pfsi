@@ -11,6 +11,11 @@
     </dependency>
 
    <!--可以写多个dependency节点，目前本次只有一个，期待大家的贡献哈-->
+    <dependency>
+        <name>dirutils</name>
+        <srcPath>/cloud/dirutils.php</srcPath>
+        <savedPath>/commons/dirutils.php</savedPath>
+    </dependency>
 
 
 </dependencies>
