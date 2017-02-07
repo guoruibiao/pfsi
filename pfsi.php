@@ -437,7 +437,7 @@ ENDTAG;
             $filecontent = file_get_contents($url);
             // 判断本地文件夹是否存在，不存在则创建。默认创建位置为pfsi.php同级目录
             $this->isDirExists($this->getSavedDir($item->savedPath));
-            $filepath = "./commons/".$item->name.".php";
+            $filepath = "./".$this->getSavedDir($item->savedPath)."/".$item->name.".php";
 
             // 完善处理，保存下载好的函数集
             file_put_contents($filepath, $filecontent);
